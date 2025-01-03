@@ -24,9 +24,6 @@ export default function Videos() {
                     loading="lazy"
                   >
                   </iframe>
-                    {/* <video muted controls load>
-                      <source src={video.video} type="video/mp4" />
-                    </video> */}
                 </div>
             ))}
         </div>
