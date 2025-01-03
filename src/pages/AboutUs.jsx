@@ -2,7 +2,7 @@ import SubHeader from '../components/SubHeader'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-import ab1 from '../assets/images/gallery/ab1.jpg'
+import { aboutImage } from '../constants'
 
 import { useEffect } from 'react'
 import Aos from 'aos'
@@ -29,7 +29,7 @@ export default function About() {
       <div className="w-full h-full relative top-[120px] flex flex-col items-center">
         <div className='w-full flex flex-col md:flex-row items-center justify-center gap-8 mt-12' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div className='w-[300px] h-[300px] rounded-2xl overflow-hidden'>
-            <img src={ab1} alt='PG-11 Image' className='w-full h-full object-cover' />
+            <img src={aboutImage} alt='PG-11 Image' className='w-full h-full object-cover' />
           </div>
 
           <div className='flex flex-col items-center'>

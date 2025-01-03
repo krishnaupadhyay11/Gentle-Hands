@@ -197,3 +197,7 @@ export const tests = [
         remark: 'Gentle hands physiocare is the best place to get rid of pain. The staff members are so friendly and knowledgeable, I highly recommend this place for physiotherapy.',
     },
 ]
+
+import aboutImage from './assets/images/gallery/ab1.jpg'
+
+export {aboutImage}
