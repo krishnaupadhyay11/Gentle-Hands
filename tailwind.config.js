@@ -10,7 +10,6 @@ export default {
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
-        'berkshire': ['Berkshire Swash', 'sans-serif'],
         'source': ["Source Serif Pro", 'serif'],
       },
     },
