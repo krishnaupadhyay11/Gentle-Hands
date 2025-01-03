@@ -1,4 +1,5 @@
 import { tests } from "../constants"
+import begin from '../assets/images/kk.png'
 
 import { useState } from "react"
 
@@ -16,17 +17,18 @@ export default function Testimonials() {
   return (
     <div className="w-full p-2 py-4 md:py-8 mt-12 bg-[#f0f0f0]">
         <div className="w-full max-w-7xl flex flex-col items-center gap-4">
-          <div>
+          <div className="flex flex-col items-center">
             <h1 className="text-[48px] source font-black">Testimonials</h1>
-            <h2 className="text-gray-800">What Our Patients Say About Us</h2>
+            <h2 className="text-gray-800">What Our Patients Say About Us (Google Reviews)</h2>
           </div>
 
+            <img src={begin} alt='Begins Remark' className="w-[24px] h-[24px] object-contain "/>
           <div className="w-full max-w-[800px] p-4 flex flex-col justify-center items-center relative">
             <div className="w-full max-w-[300px] md:max-w-[500px] lg:max-w-[600px] flex flex-nowrap overflow-hidden gap-0">
               {tests.map((test, index) => (
                 <div className="w-full h-full flex flex-col flex-shrink-0 flex-grow-0 gap-2 items-center transition-all duration-300 ease-in-out" key={index} style={{translate:`${-100*currentIndex}%`}}>
-                  <h1 className="text-[22px] font-bold">{test.name}</h1>                        
-                  <p className="text-[16px] text-center">{test.remark}</p>
+                  <p className="text-center">{test.remark}</p>
+                  <h1 className="text-[20px] font-bold">{test.name}</h1>                        
                 </div>
               ))}
             </div>

@@ -1,9 +1,8 @@
 import SubHeader from '../components/SubHeader'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ServicesTrailer from '../components/ServicesTrailer'
 
-import clinicImage from '../assets/images/logot.png'
+import ab1 from '../assets/images/gallery/ab1.jpg'
 
 import { useEffect } from 'react'
 import Aos from 'aos'
@@ -29,14 +28,16 @@ export default function About() {
 
       <div className="w-full h-full relative top-[120px] flex flex-col items-center">
         <div className='w-full flex flex-col md:flex-row items-center justify-center gap-8 mt-12' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-          <div className='w-[300px] h-[300px]'>
-            <img src={clinicImage} alt='PG-11 Image' className='w-full h-full object-cover' />
+          <div className='w-[300px] h-[300px] rounded-2xl overflow-hidden'>
+            <img src={ab1} alt='PG-11 Image' className='w-full h-full object-cover' />
           </div>
 
           <div className='flex flex-col items-center'>
-            <p className='text-center max-w-[600px] p-4 flex flex-col items-center'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, natus maiores vel dolorem quam quod optio pariatur quibusdam commodi? Voluptatibus eveniet inventore exercitationem ipsam sint? Magni porro dicta mollitia accusantium corporis quas quibusdam.
-            </p>
+            <div className='text-center max-w-[600px] p-4 flex flex-col items-center'>
+              <h1 className="text-center md:text-left text-lg font-bold mb-2">Gentle Hands: The Leading Physiotherapy Center in Delhi</h1>
+              <p>At Gentle Hands, we are committed to providing exceptional physiotherapy care to help you recover, regain strength, and enhance your quality of life. <strong>Dr. Naveen at Gentle Hands</strong> uses a holistic approach that combines advanced techniques with personalized care. His exceptional skills and long experience helps you resume your activities with much energy and vigour.</p> <br />
+              <p >Whether you are recovering from surgery, dealing with chronic pain, or looking to improve your overall physical well-being, our center offers customized treatment plans tailored to your specific needs. We want to see you <strong>live limitless</strong> and are always at your service.</p>
+            </div>
             <div className='flex flex-col items-center'>
               <h2 className='text-[18px] font-bold'>Dr. Naveen</h2>
               <div className='flex items-center gap-1'>
@@ -45,9 +46,6 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
-        <div className='w-full mt-10'>
-            <ServicesTrailer />
         </div>
         <Footer />
       </div>

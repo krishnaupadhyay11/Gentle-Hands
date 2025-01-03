@@ -50,7 +50,8 @@ export default function ContactUs() {
           <div className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className="text-[36px] source font-black">Hours</h1>
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
-                Mon - Sun: 10:00 AM - 7:00 PM
+                Mon - Sat: 10:00 AM - 9:00 PM<br />
+                Sunday: 11:00 AM - 6:00 PM
             </p>
           </div>
           <div className="h-[1px] w-[64px] bg-add sprinkle mb-4" />
