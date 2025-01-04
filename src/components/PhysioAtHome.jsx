@@ -15,7 +15,7 @@ export default function PhysioAtHome() {
 
                 <p className="text-[20px] text-center font-bold">Right Time, Right Services</p>
 
-                <ul className="flex flex-wrap gap-4">
+                <ul className="flex justify-center items-center flex-wrap gap-4">
                     {phyAtHome.map((phyHome, index) => (
                         <li key={index}>
                             <div className='flex flex-col items-center p-4 bg-white rounded-2xl max-w-[100px]'>

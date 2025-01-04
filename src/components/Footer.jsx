@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full h-full bg-logo1 mt-12 flex flex-col">
-        <div className="w-full max-w-7xl flex flex-col md:flex-row gap-4 p-8 pb-16 justify-around">
+        <div className="w-full max-w-7xl flex flex-col md:flex-row gap-4 p-8 pb-12 justify-around">
             <div className="flex flex-col gap-2 items-center">
                 <div className="w-[300px]">
                     <img src={logo} alt="PG-11's Logo" className="w-full h-full object-contain" />
@@ -84,7 +84,7 @@ export default function Footer() {
             </div>
         </div>
 
-        <div className='w-full px-4 py-1 bg-logo1 flex justify-center items-center'>
+        <div className='w-full px-4 py-2 bg-logo1 flex justify-center items-center'>
             <h1 className='text-center'>&#169; 2025 Gentle Hands. Designed and Developed by <Link to='https://krishnaupadhyay.vercel.app' className='text-add' target='_blank'>
                     Krishna.
                 </Link>

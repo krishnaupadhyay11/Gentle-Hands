@@ -35,16 +35,16 @@ export default function Header() {
           <img src={toggle ? close : menu} alt='Mobile Navbar Open' className='w-full h-full object-contain' onClick={() => setToggle(prev => !prev)} />
         </div>
 
-        <div className={`${toggle ? 'flex' : 'hidden'} fixed top-0 right-0 flex-col bg-logo1 h-full min-h-[100vh] w-2/3 p-4 items-center`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} fixed top-0 right-0 flex-col bg-add h-full min-h-[100vh] w-2/3 p-4 items-center`}>
           <div className='w-full flex justify-end pr-4 pt-2'>
-            <img src={close} alt='Mobile Navbar Close' onClick={() => setToggle(prev => !prev)}/>
+            <img src={close} alt='Mobile Navbar Close' className='w-[24px] h-[24px]' onClick={() => setToggle(prev => !prev)}/>
           </div>
 
           <nav className='h-full flex items-center'>
             <ul className='w-full flex flex-col items-center gap-8'>
               {navLinks.map((navLink) => (
                 <li key={navLink.title}>
-                  <Link to={navLink.link} className={`${navLink.link === activeNavLink ? 'text-add' : ''} text-white text-[22px] p-2 px-4 transition-all duration-200`}>
+                  <Link to={navLink.link} className={`${navLink.link !== activeNavLink ? 'text-white' : 'text-logo1'} text-[22px] p-2 px-4 transition-all duration-200`}>
                     {navLink.title}
                   </Link>
                 </li>
