@@ -1,4 +1,4 @@
-import background from '../assets/images/backgroundgo_enhanced.png'
+import background from '../assets/images/backgroundgo_enhanced.jpg'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 
