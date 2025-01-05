@@ -29,7 +29,7 @@ export default function Gallery() {
       <div className="w-full h-full relative top-[120px] flex flex-col items-center">
         <div className="w-full flex flex-wrap justify-center gap-6 md:gap-12 mt-12">
             {images.map((image, index) => (
-                <div className="w-[310px] h-[310px] rounded-2xl overflow-hidden" key={index}>
+                <div className="w-[320px] rounded-2xl overflow-hidden" key={index}>
                     <img src={image.src} alt="Gentle Hands Images" className="w-full h-full object-cover" />
                 </div>
             ))}
