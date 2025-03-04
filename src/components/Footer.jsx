@@ -84,8 +84,8 @@ export default function Footer() {
             </div>
         </div>
 
-        <div className='w-full px-4 py-2 bg-logo1 flex justify-center items-center'>
-            <h1 className='text-center'>&#169; 2025 Gentle Hands. Designed and Developed by <Link to='https://krishnaupadhyay.vercel.app' className='text-add' target='_blank'>
+        <div className='w-full px-4 py-2 bg-add text-white flex justify-center items-center'>
+            <h1 className='text-center'>&#169; 2025 Gentle Hands. Designed and Developed by <Link to='https://krishnaupadhyay.vercel.app' className='text-logo1' target='_blank'>
                     Krishna.
                 </Link>
             </h1>
