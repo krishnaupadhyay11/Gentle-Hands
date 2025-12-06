@@ -35,7 +35,7 @@ export default function SubHeader() {
 
         <div className="flex items-center gap-1 md:mr-4">
             <i className="uil uil-map-marker"></i>
-            <h4>Govindpuri, New Delhi</h4>
+            <h1>Kalkaji, New Delhi</h1>
         </div>
 
     </div>

@@ -125,7 +125,6 @@ import i7 from './assets/images/gallery/7.jpg'
 import i8 from './assets/images/gallery/8.jpg'
 import i9 from './assets/images/gallery/9.jpg'
 import i10 from './assets/images/gallery/10.jpg'
-import i11 from './assets/images/gallery/11.jpg'
 
 export const images = [
     {
@@ -157,9 +156,6 @@ export const images = [
     },
     {
         src: i10
-    },
-    {
-        src: i11
     },
 ]
 

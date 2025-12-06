@@ -31,9 +31,9 @@ export default function ContactUs() {
           <div className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className="text-[36px] source font-black">Address</h1>
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
-              657/7, Street No. 7,<br className="hidden md:block"/><span className="md:hidden"> </span>
-              Govindpuri, Kalkaji<br className="hidden md:block"/><span className="md:hidden"> </span>
-              New Delhi - 110019
+              Reflect Gym, E-12,<br className="hidden md:block"/><span className="md:hidden"> </span>
+              Kalkaji, New Delhi<br className="hidden md:block"/><span className="md:hidden"> </span>
+              Delhi - 110019
             </p>
           </div>
           <div className="h-[1px] w-[64px] bg-add sprinkle mb-4" />

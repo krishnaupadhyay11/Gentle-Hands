@@ -22,11 +22,11 @@ export default function Footer() {
         <div className="w-full max-w-7xl flex flex-col md:flex-row gap-4 p-8 pb-12 justify-around">
             <div className="flex flex-col gap-2 items-center">
                 <div className="w-[300px]">
-                    <img src={logo} alt="PG-11's Logo" className="w-full h-full object-contain" />
+                    <img src={logo} alt="Gentle Hands Logo" className="w-full h-full object-contain" />
                 </div>
 
                 <div className='flex flex-col items-center gap-2'>
-                    <h1 className='text-[24px] font-bold mb-2'>Contact Us</h1>
+                    <h1 className='text-[24px] font-semibold mb-2'>Contact Us</h1>
 
                     <h2 className='text-center text-[18px]'>Dr. Naveen </h2>
 
@@ -53,12 +53,12 @@ export default function Footer() {
             </div>
 
             <div className='flex flex-col items-center gap-2'>
-                <h1 className='text-[24px] font-bold mb-2'>Address</h1>
+                <h1 className='text-[24px] font-semibold mb-2'>Address</h1>
 
                 <p className="text-center">
-                    657/7, Street No. 7, <br />
-                    Govindpuri, Kalkaji <br />
-                    New Delhi - 110019
+                    Reflect Gym, E-12, <br />
+                    Kalkaji, New Delhi, <br />
+                    Delhi - 110019
                 </p>
 
                 <div className='max-w-[300px] rounded-2xl overflow-hidden'>
@@ -72,7 +72,7 @@ export default function Footer() {
             </div>
 
             <div className='flex flex-col gap-2 items-center'>
-                <h1 className='text-[24px] font-bold mb-2'>Useful Links</h1>
+                <h1 className='text-[24px] font-semibold mb-2'>Useful Links</h1>
 
                 <ul className='flex flex-col gap-2 items-center'>
                     {navLinks.map((navLink) => (
@@ -80,6 +80,9 @@ export default function Footer() {
                             <Link to={navLink.link}>{navLink.title}</Link>
                         </li>
                     ))}
+                    <li><Link to='/contact-us'><h1 className='text-sm mt-2'>Physiotherapy in Kalkaji, CR Park</h1></Link></li>
+                    <li><Link to='/contact-us'><h1 className='text-sm'>Physiotherapy in Nehru Place, GK</h1></Link></li>
+                    <li><Link to='/contact-us'><h1 className='text-sm'>Physiotherapy in Govindpuri, Okhla</h1></Link></li>
                 </ul>
             </div>
         </div>
