@@ -63,9 +63,8 @@ export default function ContactUs() {
           </div>
         </div>
         <div className='w-full max-w-7xl p-6 md:p-8 rounded-2xl overflow-hidden'>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.108205064627!2d77.25996837549725!3d28.536467175717423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3768bdce36f%3A0xbee525869f056fcb!2sGENTLE%20HANDS%20PHYSIOCARE!5e0!3m2!1sen!2sin!4v1735634950430!5m2!1sen!2sin" 
-          width="100%" 
-          height="150" 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.928221446456!2d77.2524351316511!3d28.541877124782342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1439d976275%3A0x5e9261e798f9b9d0!2sReflect%20Gym!5e0!3m2!1sen!2sin!4v1765050806093!5m2!1sen!2sin" 
+          width="100%" height="150" 
           allowfullscreen="" loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
           </iframe>
