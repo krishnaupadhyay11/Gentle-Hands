@@ -57,7 +57,7 @@ export default function ContactUs() {
           <div className="h-[1px] w-[64px] bg-add sprinkle mb-4" />
           <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12 ">
             <h1 className="text-[36px] source font-black">Book on WhatsApp</h1>
-            <a aria-label="Chat on WhatsApp" href="https://wa.me/919873089523" className="sm:w-full sm:max-w-[400px] flex justify-center">
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/919927150034" className="sm:w-full sm:max-w-[400px] flex justify-center">
                 <img alt="Chat on WhatsApp" src={WhatsApp} width={300}/>
             </a>
           </div>
